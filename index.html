@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baccarat AI Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Baccarat AI Pro</h1>
+        <button onclick="switchLanguage()">🌐 AR / EN</button>
+    </header>
+    <main>
+        <section class="status-boxes">
+            <div class="box">💡 AI Confidence: <span id="confidence">82%</span></div>
+            <div class="box">📈 Profit: <span id="profit">+240 MAD</span></div>
+            <div class="box">⏱️ Session: <span id="timer">00:32:14</span></div>
+        </section>
+        <section class="graph">
+            <h2>Performance Graph</h2>
+            <canvas id="profitChart" width="400" height="200"></canvas>
+        </section>
+        <section class="control">
+            <button onclick="simulateRound()">▶️ Simulate Round</button>
+            <button onclick="autoTrigger()">🤖 Auto Trigger</button>
+        </section>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>
